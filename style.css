@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    width: 50%;
+    margin: 50px auto 0;
+    border-radius: 4px;
+    box-shadow: 0 0 2px 0 black;
+    padding: 10px;
+}
+.wrapper .input-wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.input-wrapper input{
+    width: 80%;
+    height: 6vh;
+    background-color: #eee;
+    border-radius: 4px;
+    color: black;
+    padding:0 12px;
+    font-size: 18px;
+    border: none;
+}
+.input-wrapper button{
+    width: 18%;
+    height: 6vh;
+    border: none;
+    background-color: #0652DD;
+    color: white;
+    border-radius: 4px;
+    font-size: 18px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.input-wrapper button:hover{
+    background-color: #0646bd;
+    border-radius: 4px;
+}
+hr{
+    margin:14px 0 0;
+}
+
+.task_wrapper{
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 4px;
+    box-shadow: 0 0 2px 0 black;
+    padding: 10px;
+    border-left: 5px solid #bdc3c7;
+    margin-top: 14px;
+}
+.task_wrapper p{
+    width: 80%;
+    font-size: 18px;
+}
+.task_wrapper input{
+    width: 4%;
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+}
+.task_wrapper button{
+    font-size: 18px;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+}
